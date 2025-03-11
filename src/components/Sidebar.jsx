@@ -8,7 +8,7 @@ const Sidebar = () => {
                     <p className="text-sm text-sky-300 font-semibold">Admin</p>
                     <div className="listMenuProduk mt-3 ml-3">
                         <Link to={'#'} className="text-white text-sm block mt-3 hover:text-sky-200">
-                            <i className="fa-solid fa-users pr-2"></i>Managemen Users
+                            <i className="fa-solid fa-users pr-2"></i>Manajemen Users
                         </Link>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ const Sidebar = () => {
                             <i className="fa-solid fa-bell pr-2"></i>Notifikasi
                         </Link>
                         <Link to={'#'} className="block mt-4 text-white text-sm hover:text-sky-200">
-                            <i className="fa-solid fa-shopping-cart pr-2"></i>Order
+                            <i className="fa-solid fa-shopping-cart pr-2"></i>Pesanan
                         </Link>
                     </div>
                 </div>

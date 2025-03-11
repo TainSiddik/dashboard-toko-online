@@ -29,7 +29,7 @@ const Produk = () => {
                             <i className="fa-solid fa-list text-2xl text-teal-600"></i>
                         </button>
                         <div className="namaKategori font-semibold">
-                            <h1 className="text-lg text-slate-700">Managemen Produk</h1>
+                            <h1 className="text-lg text-slate-700">Manajemen Produk</h1>
                         </div>
                     </div>
                     <div className="tambahProduk flex items-center">
