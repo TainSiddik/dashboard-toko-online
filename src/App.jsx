@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar"
 import Tambahproduk from "./components/Tambahproduk"
 import Login from "./components/Login"
 import Register from "./components/Register"
+import Navbar from "./components/Navbar"
 
 function App() {
 
@@ -17,7 +18,10 @@ function App() {
             <>
               <div className="produk flex gap-2 my-1 mx-1">
                 <Sidebar />
-                <Produk />
+                <div className="navProduk">
+                  <Navbar />
+                  <Produk />
+                </div>
               </div>
             </>
           } />

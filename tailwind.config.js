@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'custom-img': "url('./bg.webp')",
+        'custom-gradient': "linear-gradient(to right, #06b6d4, #0891b2)",
       }
     },
   },
